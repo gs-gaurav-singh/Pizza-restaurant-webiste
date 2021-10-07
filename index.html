@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="/static/css/style.css" />
+  <link rel="stylesheet" href="/static/css/responsive.css">
+  <title>Pizza-Order Now</title>
+</head>
+
+<body>
+  <nav class="navbar background h-nav-resp">
+    <i class="fas fa-pizza-slice logo"></i>
+    <ul class="nav-list v-class-resp">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact US</a></li>
+    </ul>
+    <div class="burger">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+  </nav>
+
+  <section class="background main-section" id="home">
+    <div class="main-text">
+      <h1>FOR THE PIZZA LOVERS</h1>
+    </div>
+
+    <div class="menu-btn">
+      <a href="#menu" class="mbtn" id="mbtn">JUMP TO THE MENU</a>
+    </div>
+
+    <div class="open-text">
+      <h1>Open from 10am to 12pm</h1>
+    </div>
+  </section>
+
+  <section class="menu" id="menu">
+    <div class="menuhead">
+      <h1>The Menu</h1>
+    </div>
+
+    <div class="menubox" id="menubox">
+      <div class="menu-selector" id="menu-selector">
+        <a onclick="pizzamenu()" href="#pizza-options" id="pizza">Pizza</a>
+        <a onclick="startersmenu()" href="#stater-options" id="starters">Starters</a>
+        <a onclick="saladsmenu()" href="#salads-options" id="salads">Salads</a>
+      </div>
+
+      <div class="options">
+
+        <div class="pizza-options">
+          <h2 id="option1">MAGRGHERITA</h2>
+          <h3 id="price1">&#x20b9 200</h3>
+        </div>
+
+        <div class="ingredients" id="ind1">
+          <p>Fresh tomatoes, fresh mozzarella, fresh basil</p>
+        </div>
+
+        <hr>
+
+        <div class="pizza-options">
+          <h2 id="option2">Formaggio</h2>
+          <h3 id="price2">&#x20b9 150</h3>
+        </div>
+
+        <div class="ingredients" id="ind2">
+          <p>Four cheeses (mozzarella, parmesan, pecorino, jarlsberg)</p>
+        </div>
+
+        <hr>
+
+        <div class="pizza-options">
+          <h2 id="option3">Chicken</h2>
+          <h3 id="price3">&#x20b9 250</h3>
+        </div>
+
+        <div class="ingredients" id="ind3">
+          <p>Fresh tomatoes, mozzarella, chicken, onions</p>
+        </div>
+
+        <hr>
+
+        <div class="pizza-options">
+          <h2 id="option4">Pineapple'o'clock</h2>
+          <h3 id="price4">&#x20b9 180</h3>
+        </div>
+
+        <div class="ingredients" id="ind4">
+          <p>Fresh tomatoes, mozzarella, fresh pineapple, bacon, fresh basil</p>
+        </div>
+
+        <hr id="line4">
+
+        <div class="pizza-options">
+          <h2 id="option5">Meat Town</h2>
+          <h3 id="price5">&#x20b9 300</h3>
+        </div>
+
+        <div class="ingredients" id="ind5">
+          <p>Fresh tomatoes, mozzarella, hot pepporoni, hot sausage, beef, chicken</p>
+        </div>
+
+        <hr id="line5">
+
+        <div class="pizza-options">
+          <h2 id="option6">Parma</h2>
+          <h3 id="price6">&#x20b9 150</h3>
+        </div>
+
+        <div class="ingredients" id="ind6">
+          <p>Fresh tomatoes, mozzarella, parma, bacon, fresh arugula</p>
+        </div>
+
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <h1 class="about-heading">About</h1>
+    <p class="about-text">The Pizza Restaurant was founded in blabla by Mr. Italiano in Lorem ipsum dolor sit amet
+      consectetur, adipisicing elit. Rerum magni doloremque amet aut ut aliquid dolore repellat at saepe maxime
+      exercitationem accusantium inventore totam dignissimos, soluta, hic quibusdam? Quisquam temporibus consectetur
+      assumenda explicabo, aliquam sequi commodi provident perspiciatis eum, dolorem porro doloremque voluptatum totam
+      non nulla repudiandae inventore tempora tempore, sed reprehenderit. Accusantium, soluta repellendus!</p>
+    <p class="about-text">The Chef? Mr. Italiano himself</p>
+    <p class="about-text">We are proud of our interiors.</p>
+
+    <div class="open-hours">
+      <h1 class="opening-heading">Opening Hours</h1>
+      <div class="time">
+        <div class="open-col1">
+          <p>Mon & Tue CLOSED</p>
+          <p>Wednesday 10.00 - 24.00</p>
+          <p>Thursday 10:00 - 24:00</p>
+        </div>
+        <div class="open-col2">
+          <p>Friday 10:00 - 12:00</p>
+          <p>Saturday 10:00 - 23:00</p>
+          <p>Sunday Closed</p>
+        </div>
+        <img class="rest-img about-text"
+          src="https://images.unsplash.com/photo-1546195643-70f48f9c5b87?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
+          alt="restauran img">
+      </div>
+
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h1 class="contact-heading">Contact Us</h1>
+    <p class="contact-text"> <strong class="alert-info">FYI!</strong> We offer full-service catering for any event, large or small. We understand your needs and
+      we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
+      <br>
+      <p class="contact-text"><strong>Reserve</strong> a table, ask for today's special or just send us a message:</p>
+
+      <form action="">
+        <p><input class="form-text" type="text" placeholder="Name" required name="Name"></p>
+        <p><input class="form-text" type="number" placeholder="How many people" required name="People"></p>
+        <p><input class="form-text" id="datePicker" type="datetime-local" placeholder="Date and time" required name="date"></p>
+        <p><input class="form-text" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+        <p><button class="form-text button1" type="submit">SEND MESSAGE</button></p>
+      </form>
+  </section>
+
+  <!-- Footer -->
+<footer class="background">
+  <p class="text-footer">
+    Copyright &copy; 2030 - www.pizzaordernow.com - All rights reserved
+  </p>
+</footer>
+
+  <script src="/script/script.js"></script>
+</body>
+
+</html>

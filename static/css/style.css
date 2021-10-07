@@ -1,0 +1,265 @@
+@import url("https://fonts.googleapis.com/css2?family=Yomogi&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Yomogi", cursive;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.background {
+  background: rgba(0, 0, 0, 0.7) url(/static/img/pizzaimg.jfif);
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  cursor: pointer;
+}
+
+.logo {
+  margin-left: 5px;
+  color: white;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.nav-list {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-list li {
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  margin-left: 15px;
+  color: wheat;
+  font-size: 20px;
+  font-size: 25px;
+}
+
+.nav-list li a:hover {
+  color: red;
+}
+
+.main-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main-text {
+  color: white;
+  width: 30%;
+  font-size: 30px;
+}
+
+.mbtn {
+  color: white;
+  border: 2px solid red;
+  border-radius: 10px;
+  font-size: 30px;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.mbtn:hover {
+  background-color: black;
+  color: white;
+}
+
+.big-text {
+  color: white;
+}
+
+.open-text {
+  color: black;
+  margin-top: 550px;
+  margin-right: -300px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: white;
+  padding: 3px;
+}
+
+#menu {
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 95vh;
+}
+
+.menuhead {
+  color: black;
+  margin: 2%;
+  font-size: 30px;
+}
+
+.menubox {
+  background-color: #dededf;
+  height: 565px;
+  width: 80%;
+  border: 5px solid white;
+  border-radius: 5px;
+}
+
+.menu-selector {
+  font-size: xx-large;
+  justify-content: space-evenly;
+  display: flex;
+  text-align: center;
+}
+
+.menu-selector a {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  width: 33%;
+}
+
+.menu-selector a:hover {
+  background-color: #ba181b;
+  color: white;
+}
+
+.pizza-options{
+  display: flex;
+  margin: 10px;
+}
+
+.pizza-options h2{
+  width: 50%;
+  text-align: center;
+}
+
+.pizza-options h3{
+  width: 50%;
+  text-align: center;
+}
+
+.ingredients{
+  margin-left: 130px;
+  font-size: large;
+}
+
+#about{
+  margin-top: 3%;
+  background-color: #dee2ff;
+  height: 93vh;
+}
+
+.about-heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  padding-top: 2%;
+  font-size: 30px;
+}
+
+.about-text{
+  padding: 1%;
+  font-size: 20px;
+}
+
+.opening-heading{
+  margin-left: 14%;
+}
+
+.time{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.open-col1{
+  margin: 20px;
+  font-size: 25px;
+}
+
+.open-col2{
+  margin: 20px;
+  font-size: 25px;
+}
+
+.rest-img{
+  width: 28%;
+}
+
+#contact{
+  margin-top: 3%;
+  height: 93vh;
+  background-color: #cbc0d3;
+}
+
+.contact-heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  margin: 1%;
+  font-size: 30px;
+}
+
+.alert-info{
+  background-color: black;
+  color: white;
+  padding: 5px;
+}
+.contact-text{
+  padding: 1%;
+  font-size: 20px;
+}
+
+input[type=text], [type=number], [type=datetime-local], [type=submit] ,select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 1% 23%;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.button1:hover {background-color: #e7e7e7;}
+
+.text-footer{
+  text-align: center;
+  padding: 25px 0px;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.burger{
+  display: none;
+  position: absolute;
+  cursor: pointer;
+  right: 5%;
+  top: 15px;
+}
+
+.line{
+  width: 33px;
+  background-color: white;
+  height: 5px;
+  margin: 5px 3px; 
+}

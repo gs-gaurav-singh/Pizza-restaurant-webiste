@@ -2,7 +2,7 @@
 
 Simple free static website created with HTML, CSS, Javascript
 
-![Alt text](image.png)
+![Site-SS](image.png)
 
 # Getting Started
 

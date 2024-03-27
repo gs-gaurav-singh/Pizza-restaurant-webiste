@@ -1,4 +1,4 @@
-# Pizza-restaurant-webiste
+# Pizza-restaurant-website
 
 Simple free static website created with HTML, CSS, Javascript
 
